@@ -1,0 +1,45 @@
+@media (max-width: 768px) {
+  .skills__inner {
+    flex-direction: column;
+    align-items: center;
+    gap: 50px; }
+
+  .form {
+    min-width: 400px; } }
+@media (max-width: 660px) {
+  .header__title {
+    max-width: 400px; }
+
+  .skills__box {
+    max-width: 450px; }
+
+  .project__box {
+    grid-template-columns: 33.3vw 33.3vw 33.3vw; }
+
+  .contact__inner {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px; } }
+@media (max-width: 425px) {
+  .header__title {
+    max-width: 250px; }
+
+  .slider__inner {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 100px 0;
+    gap: 30px; }
+
+  .form {
+    min-width: 275px; }
+
+  .project__box {
+    grid-template-columns: 100vw;
+    grid-template-rows: repeat(3, 350px); }
+
+  .project__box-small {
+    grid-template-columns: 100vw;
+    grid-template-rows: repeat(2, 350px); } }
+
+/*# sourceMappingURL=media.css.map */

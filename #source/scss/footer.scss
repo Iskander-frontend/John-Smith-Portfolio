@@ -1,0 +1,17 @@
+@import "vars";
+
+.footer__inner{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 35px 0;
+}
+.footer__title{
+  color: $dark-gray;
+}
+.footer__social{
+  display: flex;
+  img{
+    margin-left: 24px;
+  }
+}

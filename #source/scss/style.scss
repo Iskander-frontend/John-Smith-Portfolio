@@ -1,0 +1,30 @@
+@import "vars";
+@import "header";
+@import "skills";
+@import "projects";
+@import "contact";
+@import "footer";
+
+body{
+  font-family: 'Roboto', sans-serif;
+  overflow-x: hidden;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
+.container{
+  max-width: 1000px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+.section__heading{
+  font-size: 31px;
+  line-height: 36px;
+  color: $dark-gray;
+}
+.desc{
+  font-size: 14px;
+  line-height: 20px;
+  color: $dark-gray;
+}

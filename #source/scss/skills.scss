@@ -1,0 +1,30 @@
+@import "vars";
+
+.skills{
+  background: $bg-gray;
+}
+.skills__inner{
+  display: flex;
+  justify-content: space-between;
+  padding: 80px 0;
+}
+.skills__box{
+  max-width: 620px;
+}
+.skills__item{
+  padding: 12px 18px;
+  margin-top: 18px;
+  font-size: 13px;
+  line-height: 20px;
+  text-transform: uppercase;
+  background: $light-gray;
+}
+.skills__item:nth-child(2){
+  width: 90%;
+}
+.skills__item:nth-child(3){
+  width: 70%;
+}
+.skills__item:nth-child(4){
+  width: 40%;
+}
